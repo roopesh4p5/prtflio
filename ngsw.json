@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1716987313383,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.9f6b79ca5ba3fae1.js",
+        "/manifest.webmanifest",
+        "/polyfills.36544b12fbb57e53.js",
+        "/runtime.1c85ea6003a0fcdb.js",
+        "/styles.6632c18fdbd87aff.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/cctv.png",
+        "/assets/chrome.jpg",
+        "/assets/drawing.jpg",
+        "/assets/electric.png",
+        "/assets/explore.jpg",
+        "/assets/greythr.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/index.html",
+        "/assets/landing.png",
+        "/assets/raspberry.png",
+        "/assets/style.css"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/cctv.png": "fb8ea1e792b81448d68974de4aa1ef1236685270",
+    "/assets/chrome.jpg": "ae03b6b17cec408fac76adbcaf9f1d08bf5f3494",
+    "/assets/drawing.jpg": "1587575503925bec49aa210bbb062db733e3d85c",
+    "/assets/electric.png": "9b96c1bc86ad36b462bace4a54e892f51c2c4158",
+    "/assets/explore.jpg": "962a0f4235eb0c4ffd133d4f510d9f521f1e8756",
+    "/assets/greythr.png": "32b6ca875de65f6e7c6cb356705a1efe297ee934",
+    "/assets/icons/icon-128x128.png": "b56585191e8a281d95569c2b7bae77b9ba6e8981",
+    "/assets/icons/icon-144x144.png": "23ce924af8d748ed364f9d976142fdc996ef63b7",
+    "/assets/icons/icon-152x152.png": "e09115e02fcd972ff765b792372010126049b983",
+    "/assets/icons/icon-192x192.png": "388eb17364b4554502e6e5ace6d1daab0eb6900c",
+    "/assets/icons/icon-384x384.png": "d688606bf0120f5373605d8cbc6d99d881a7d9d3",
+    "/assets/icons/icon-512x512.png": "f6506bf47e361b2ff709a8503e0d2bba0782d1ab",
+    "/assets/icons/icon-72x72.png": "a7fa04e15e47968ab1bb821d93e7e0c9e7c320b5",
+    "/assets/icons/icon-96x96.png": "39251e48ad66023fc1191c3ba18fc4d0e195e629",
+    "/assets/index.html": "b9e9b87fbf215229cdf34c86adc42a6f1600d3f8",
+    "/assets/landing.png": "1aa46d714526d3d33a412d32f2e40d4abdfc3ba0",
+    "/assets/raspberry.png": "adf642d24a4bd623f114a74adc6b97e97465545a",
+    "/assets/style.css": "2e3146512bda66981cead3e2cc9c4702f6c38ac8",
+    "/favicon.ico": "04c278dba3e54393c4c980f7fd4dcd43796ef813",
+    "/index.html": "6b83ac0aa541f0b73c8383c7b93e302949ba509a",
+    "/main.9f6b79ca5ba3fae1.js": "d024cfded940e0eccfde2ba8148eb6f653982932",
+    "/manifest.webmanifest": "4c417f01234b3725412175d91294db17259d0a06",
+    "/polyfills.36544b12fbb57e53.js": "9890cbd608e27ab88a90995999f4fa39e554fbe0",
+    "/runtime.1c85ea6003a0fcdb.js": "49da4dfe571d69f05d84947a317acdb5c4629a82",
+    "/styles.6632c18fdbd87aff.css": "1b1a49692e4a673d87922002149faa6b3101f218"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
